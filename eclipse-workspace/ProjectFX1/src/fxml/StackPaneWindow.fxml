@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kurs.java.fx.controler.StackNameControler">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <CheckBox mnemonicParsing="false" text="CheckBox" />
+            <Button fx:id="button1" mnemonicParsing="false" text="Przycisk" textFill="#e11010" />
+         </children>
+      </HBox>
+   </children>
+</StackPane>
